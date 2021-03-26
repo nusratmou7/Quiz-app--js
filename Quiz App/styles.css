@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+     font-family: 'Mulish', sans-serif;
+}
+
+html{
+
+    font-size: 62.5%;
+}
+.main_div{
+width: 100vw;
+min-height:100vh;
+display: grid;
+place-items: center;
+background-color: aquamarine;
+}
+.inner_div{
+    width:40vw;
+    background-color: beige;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+.inner_div h2{
+
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-top: 1rem 0 4rem 0;
+}
+
+.inner_div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+#submit, .btn{
+padding: 1rem 3rem;
+outline: none;
+font-size: 2rem;
+font-size: 400;
+display: block;
+margin: auto;
+border:none;
+text-transform: uppercase;
+color: bisque;
+background-color:rgb(218, 122, 218);
+margin-top: 4rem;
+}
+#submit:hover{
+    background-color: rgb(110, 28, 97);
+}
+
+#score{
+    background-color: darkkhaki;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#score h3{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+#score .btn{
+    margin-top: 2rem;
+    background-color: rgb(168, 112, 221);
+    color:bisque;
+}
+
+.sArea{
+    display: none;
+}
+#score .btn:hover{
+    background-color: rgb(110, 28, 97);
+}
